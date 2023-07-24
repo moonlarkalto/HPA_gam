@@ -74,6 +74,7 @@ library('mgcv')
 ### Store the model and fitness outcome
 
 # Read in a data file
+# The test data set is stored in the figshare.com. Download from this link: 10.6084/m9.figshare.23734398
 gam.dt <- as.data.table(read.csv(file=paste0(getwd(), "/Data_Rsums_mc2r_7.5_2min.csv"), header=T, sep=",", strip.white=T, stringsAsFactors=T))
 # gam.dt <- as.data.table(read.csv(file=paste0(getwd(), "/Data_Rsums_mc2r_7.5_7.5min.csv"), header=T, sep=",", strip.white=T, stringsAsFactors=T))
 
